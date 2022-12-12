@@ -50,3 +50,31 @@ h1 {
     transform: scale(1.05);
 }
 
+.pokemon .img-container {
+    background-color: #ffffff99;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.pokemon .img-container img {
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.pokemon .info {
+    margin-top: 20px;
+}
+
+.pokemon .info .number {
+    background-color: #0000001a;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.pokemon .info .name {
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
+}
